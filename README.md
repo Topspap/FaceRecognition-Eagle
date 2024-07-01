@@ -27,6 +27,7 @@ Note:
 • The first time you run the script make sure that "my_db" contain at least one folder with a photo inside it.
 
 • After the script is done you need to "Empty cache and reload" to see the updated result(Don't know why), as in the screenshot:
+
 ![image](https://github.com/Topspap/FaceRecognition-Eagle/assets/30016184/67b6bc1a-2d0c-4e27-a76e-7f24ef0b23a6)
 
 • To create a database of cropped faces from photos see "ConvertToFacesForDB_V1.0_Stable" script explanation below.
