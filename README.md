@@ -21,10 +21,14 @@ A Python Script that preform FaceRecognition to Eagle Library and tag matched fa
 6. If there is not match: the photo will be taged with 'Extracted_FaceReco', then the extracted face will be added to the Database "my_db" but in side a sub folder called "[new_faces]" E.g.: .\my_db\[new_faces]\New Face_{number}
 7. then for the next photo if it found a match with a face in "[new_faces]" it will be added to the same folder and tagged with 'Extracted_FaceReco' only. (so later you can move the New Face_{number} out of [new_faces] folder and place it in "my_db" and give that folder the person name, and the next time you run the script the matched photos will be tagged with the folder name "Person Name")
 8. If the photo has no face: it will be tagged with 'No_FaceReco' to be avoided the next time you run the script.
+
 Note:
+
 • The first time you run the script make sure that "my_db" contain at least one folder with a photo inside it.
+
 • After the script is done you need to "Empty cache and reload" to see the updated result(Don't know why), as in the screenshot:
 ![image](https://github.com/Topspap/FaceRecognition-Eagle/assets/30016184/8be173c8-b800-4464-9d2c-42c066ab2aa0)
+
 • To create a database of cropped faces from photos see "ConvertToFacesForDB_V1.0_Stable" script explanation below.
 
 # How "ConvertToFacesForDB_V1.0_Stable" Script work
@@ -32,7 +36,10 @@ Note:
 2. Then for each photo it will extract all faces and save them exactly in the same folder structure but in "convertedFaces_output".
 3. Thats it.
 4. then you can use these faces and add them to your "my_db" with a folder named of the person face.
-Note: If the photo has multiple different persons (Faces) make sure to seperate them accordingly before giving it to the "my_db" databse, to avoid wrong matches.
 
+Note:
 
+• If the photo has multiple different persons (Faces) make sure to seperate them accordingly before giving it to the "my_db" databse, to avoid wrong matches.
+
+-------------------------------------------------------------------
 If you have any further question please contact me on Discord Eagle Server "https://discord.gg/w49Qjug6" my name is topspap
