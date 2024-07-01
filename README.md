@@ -1,6 +1,8 @@
 # FaceRecognition-Eagle
 A Python Script that preform FaceRecognition to Eagle Library and tag matched face with their face name based on your Database and add new faces to sub folder called [new_faces]
 
+The Face Recognition is based on DeepFace Library developed by Sefik Ilkin Serengil (serengil): https://github.com/serengil/deepface
+
 # Pre Requists:
 1. Dowload the scripts "FaceRecognition-Eagle V1.0_Stable" and "ConvertToFacesForDB_V1.0_Stable"
 2. Install the requirements in "requirements.txt"
