@@ -45,10 +45,12 @@ Note:
 ![image](https://github.com/Topspap/FaceRecognition-Eagle/assets/30016184/20ea5ea6-391d-41e1-b5d4-2798014916d6)
 ![image](https://github.com/Topspap/FaceRecognition-Eagle/assets/30016184/0458a6c9-bfad-4d83-b6aa-f04c8d5deeb9)
 
-"convertToFaces_input"
+"convertToFaces_input":
+
 ![image](https://github.com/Topspap/FaceRecognition-Eagle/assets/30016184/8e3307f2-f31c-45c5-ba1f-c669837443ed)
 
-"convertedFaces_output"
+"convertedFaces_output":
+
 ![image](https://github.com/Topspap/FaceRecognition-Eagle/assets/30016184/94b15226-d82c-4d7f-a468-ddb899a1daa8)
 
 -------------------------------------------------------------------
